@@ -69,7 +69,7 @@ Actualmente trabajo con el uso de dos licencias "MIT" y "All rights reserved".
  
 
 ### Contacto
-| Name Tag     | Activity performed | Discord | GitHub |
-| ------------- | --------------- | ---------------- | ---------------- |
-| BrianCDev    | Mod Developer     | BrianCDev#8274   | BrianCDev
-| Mery| Texture Designer      | XXMVDXX#6467  | NONE 
+| Name Tag     | Instagram | Discord | GitHub | Twitter |
+| ------------- | --------------- | ---------------- | ---------------- |  ---------------- |
+| BrianCDev    | @who_is_camilo  | BrianCDev#8274   | BrianCDev|@BrianCDev|
+
