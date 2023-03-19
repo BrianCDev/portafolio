@@ -1,0 +1,136 @@
+
+:root{
+
+    --primary-color: #25295a;
+    --hover-color: #0091ff;
+    --navbar-bgcolor: #bae1ff;
+    --navbar-buttoncolor: #1699fd;
+    --shadow-color: #bae1ff;
+}
+
+
+.customnavbar{
+    box-shadow: 1px 1px 15px var(--shadow-color);
+}
+
+
+
+/* Navbar */
+.nav-enlace{
+    display: inline-block;
+    background-color: #60baff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    margin: 10px 5px;
+}
+
+.nav-enlace:hover{
+    background-color: var(--hover-color);
+}
+
+nav{
+    display: flex;
+    background-color: var(--navbar-bgcolor);
+    padding: 10px;
+    justify-content: center;
+}
+
+.button-nav:hover{
+    background-color: var(--hover-color);
+}
+/* Navbar */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-image: url(https://raw.githubusercontent.com/BrianCDev/briancdev.github.io/main/images/sky-night.png);
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+
+.btn-price{
+    background-color: #60baff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 5px 5px;
+}
+
+.btn-price:hover{
+    background-color: var(--hover-color);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    background-color: var(--navbar-bgcolor);
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 15px var(--shadow-color);
+}
+
+.single-column{
+
+    background-color: var(--navbar-bgcolor);
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 15px var(--shadow-color);
+}
+
+.price{
+
+    font-size: 50px;
+    color:var(--navbar-buttoncolor)
+}
+
+
+.column img{
+    display: block;
+    margin: 0 auto;
+    width: 50% !important;
+    height: auto !important;
+
+}
+
+.container-title1{
+    color: var(--navbar-buttoncolor);
+    font-size: 50px;
+}
+
+hr{
+    border-style: solid;
+    border-color: var(--navbar-buttoncolor) !important;
+    border-width: 2px !important; 
+}
+
+/* If screen */
+@media (max-width: 800px) {
+    .container{
+        display: block;
+    }
+
+    .customnavbar{
+        align-items: center;
+
+        gap: 7px;
+    }
+
+
+  }
